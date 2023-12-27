@@ -43,7 +43,7 @@ a {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-image: url(nai3.avif);
+  /*  background-image: url(nai3.avif); */
     background-size: cover;
     display: flex;
     flex-direction: column;
