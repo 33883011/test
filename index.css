@@ -206,7 +206,45 @@ header .container {
 
 /*-----------------------------------------------------------------------*/
 
+.showcase-area .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
 
+
+
+.big-title {
+    font-size: 1.4rem;
+    color: var(--darkone);
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin: 10px 0;
+}
+
+span {
+    display: inline-block;
+    text-transform: uppercase;
+    animation: bounce 1s ease-in-out infinite, changeText 4s linear infinite;
+
+}
+
+.text {
+    color: var(--lightone);
+    font-size: 1.1rem;
+    margin: 1.9rem 0 2.5rem;
+    max-width: 600px;
+    line-height: 2.3;
+
+}
+
+.showcase-area .btn {
+    box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.05) ;
+}
 
 /*----------------------------------------------------------------*/
 
