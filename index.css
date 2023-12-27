@@ -486,6 +486,10 @@ span {
         font-size: 14px;
         padding: 8px 15px;
     }
+@keyframes changeText {
+    0%, 50% {
+        color: rgb(42, 235, 235); /* First color */
+    }
 }
 
     
