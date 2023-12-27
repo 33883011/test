@@ -245,7 +245,43 @@ span {
 .showcase-area .btn {
     box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.05) ;
 }
+.person {
+    z-index: 1;
+    width: 123%;
+    transform: translate(15%, 25px);
+}
 
+.toggle-btn i {
+    line-height: 39px;
+}
+
+.big-wrapper .light .toggle-btn i:last-child {
+    display: none;
+}
+.big-wrapper .light .toggle-btn i:first-child {
+    display: block;
+}
+
+.big-wrapper .dark .toggle-btn i:last-child {
+    display: block;
+}
+.big-wrapper .dark .toggle-btn i:first-child {
+    display: none;
+}
+
+.toggle-btn:hover {
+    background: var(--maincolor);
+}
+
+
+.copy{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    animation: appear 1s 1 both;
+
+}
 /*----------------------------------------------------------------*/
 
 
