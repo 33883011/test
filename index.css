@@ -350,12 +350,6 @@ span {
     }
 }
 
-@keyframes changeText {
-    0%, 50% {
-        color: rgb(42, 235, 235); /* First color */
-    }
-
-}
 
 
 
