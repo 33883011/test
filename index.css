@@ -49,8 +49,6 @@ a {
     flex-direction: column;
     justify-content: space-between;
 
-
-
     opacity: 0;
     animation: fadeIn 2.5s ease-in-out forwards;
 }
@@ -119,8 +117,6 @@ header .container {
     transform: scale(1.05);
 }
 
-
-
 .btn {
     display: inline-block;
     padding: 0.9rem 1.9rem;
@@ -135,6 +131,8 @@ header .container {
     background-color: var(--hovercolor);
     transform: scale(1.5) !important;
 }
+
+
 
 
 
